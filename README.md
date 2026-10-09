@@ -1,42 +1,57 @@
-# ML Projects
+# 👋 Welcome to My Machine Learning Portfolio
 
-A collection of machine-learning projects built with Python, scikit-learn, FastAPI, and Docker.
+This repository brings together my hands-on projects in **machine learning, Python, APIs, and model deployment**. I’m building practical skills by taking projects from data and model training to usable applications.
 
-## Projects
+## 🚀 Featured Projects
 
-### 1. Iris ML API
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🌸 Iris Classification API</h3>
+      <p>Predicts an Iris flower species from four flower measurements using a trained machine-learning model.</p>
+      <p><strong>Tools:</strong> Python · scikit-learn · FastAPI · Docker</p>
+      <a href="./iris-ml-api/README.md">Explore the Iris project →</a>
+    </td>
+    <td width="50%">
+      <h3>📉 Customer Churn Prediction API</h3>
+      <p>Predicts whether a telecom customer is likely to churn and returns a churn probability through a REST API.</p>
+      <p><strong>Tools:</strong> Python · pandas · scikit-learn · FastAPI · Docker</p>
+      <a href="./customer-churn-api/README.md">Explore the Churn project →</a>
+    </td>
+  </tr>
+</table>
 
-A machine-learning API that predicts an Iris flower species from four measurements.
+## 🧰 Tools I’m Practising
 
-**Folder:** [`iris-ml-api/`](./iris-ml-api)
+- **Programming & data:** Python, pandas, NumPy
+- **Machine learning:** scikit-learn, model evaluation, classification and regression
+- **APIs & deployment:** FastAPI, REST APIs, Docker
+- **Version control:** Git and GitHub
 
-Run locally from the project folder:
+## 🗺️ What I’m Working Toward
 
-```powershell
-cd iris-ml-api
-pip install -r requirements.txt
-uvicorn main:app --reload
+I’m developing my skills in data science and machine learning, with a long-term interest in applying data-driven methods to geospatial and real-world problems.
+
+## 📁 Repository Layout
+
+```text
+ml-projects/
+├── iris-ml-api/
+│   ├── main.py
+│   ├── train_model.py
+│   ├── model.joblib
+│   └── Dockerfile
+└── customer-churn-api/
+    ├── main.py
+    ├── train_model.py
+    ├── churn_model.joblib
+    └── Dockerfile
 ```
 
-Open http://127.0.0.1:8000/docs to test predictions.
+## 🤝 Thanks for Visiting
 
-Run with Docker from `iris-ml-api/`:
+Thanks for taking a look at my work. I’m learning by building, testing, improving, and documenting each project. Feedback and constructive suggestions are welcome!
 
-```powershell
-docker build -t iris-ml-api .
-docker run --name iris-api -p 8000:8000 iris-ml-api
-```
+---
 
-### 2. Customer Churn Prediction API
-
-A Dockerized FastAPI service that predicts customer churn.
-
-**Folder:** [`customer-churn-api/`](./customer-churn-api)
-
-See the [Customer Churn API README](./customer-churn-api/README.md) for setup, endpoints, and evaluation details.
-
-## Repository structure
-
-- `iris-ml-api/` — Iris classification API, model, dependencies, and Dockerfile.
-- `customer-churn-api/` — customer churn prediction API and trained model.
-
+*More projects and improvements will be added as I continue learning.*

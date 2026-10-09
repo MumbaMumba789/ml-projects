@@ -1,43 +1,42 @@
-﻿# ML Projects
+# ML Projects
 
-Machine learning projects and deployment experiments.
+A collection of machine-learning projects built with Python, scikit-learn, FastAPI, and Docker.
 
-## Project 1: Iris ML API
+## Projects
 
-A machine learning API built with Python, scikit-learn, FastAPI, and Docker.
+### 1. Iris ML API
 
-### Run locally
+A machine-learning API that predicts an Iris flower species from four measurements.
 
-Install dependencies:
+**Folder:** [`iris-ml-api/`](./iris-ml-api)
 
-`ash
+Run locally from the project folder:
+
+```powershell
+cd iris-ml-api
 pip install -r requirements.txt
-`
-
-Start the API:
-
-`ash
 uvicorn main:app --reload
-`
+```
 
 Open http://127.0.0.1:8000/docs to test predictions.
 
-### Run with Docker
+Run with Docker from `iris-ml-api/`:
 
-Build the image:
-
-`ash
+```powershell
 docker build -t iris-ml-api .
-`
-
-Run the container:
-
-`ash
 docker run --name iris-api -p 8000:8000 iris-ml-api
-`
+```
 
-The /predict endpoint accepts four Iris measurements and returns a predicted flower species.
+### 2. Customer Churn Prediction API
 
-## Security
+A Dockerized FastAPI service that predicts customer churn.
 
-Environment variables and local secrets are excluded from version control.
+**Folder:** [`customer-churn-api/`](./customer-churn-api)
+
+See the [Customer Churn API README](./customer-churn-api/README.md) for setup, endpoints, and evaluation details.
+
+## Repository structure
+
+- `iris-ml-api/` — Iris classification API, model, dependencies, and Dockerfile.
+- `customer-churn-api/` — customer churn prediction API and trained model.
+

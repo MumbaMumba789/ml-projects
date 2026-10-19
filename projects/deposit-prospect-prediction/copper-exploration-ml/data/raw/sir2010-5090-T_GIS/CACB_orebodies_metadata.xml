@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>USGS</origin>
+				<pubdate>20140930</pubdate>
+				<title>CACB_orebodies</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<serinfo Sync="TRUE">
+					<sername>USGS Scientific Investigations Report</sername>
+					<issue>2010-5090-T</issue>
+				</serinfo>
+				<pubinfo>
+					<publish>U.S. Geological Survey</publish>
+				</pubinfo>
+				<onlink>http://pubs.usgs.gov/sir/2010/5090/t/</onlink>
+				<lworkcit>
+					<citeinfo>
+						<pubdate>20140930</pubdate>
+						<title>Sediment-Hosted Stratabound Copper Assessment of the Neoproterozoic Roan Group, Central African Copperbelt, Katanga Basin, Democratic Republic of the Congo and Zambia</title>
+						<serinfo>
+							<sername>Scientific Investigations Report</sername>
+							<issue>2010-5090-T</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+						<onlink>http://pubs.usgs.gov/sir/2010/5090/t/</onlink>
+						<onlink>http://dx.doi.org/10.3133/sir20105090T</onlink></citeinfo>
+				</lworkcit>
+				<onlink>http://dx.doi.org/10.3133/sir20105090T</onlink></citeinfo>
+		</citation>
+		<descript Sync="TRUE">
+			<abstract>The Esri shapefile CACB_orebodies is a spatial database that provides spatial and descriptive information for sediment-hosted copper orebodies of the Central African Copperbelt, Democratic Republic of the Congo (DRC) and Zambia.</abstract>
+			<purpose>The spatial database was created for use in a geographic information system (GIS) as part of Scientific Investigations Series Report 2010-5090-T, which is part of the USGS assessment of undiscovered copper resources of the world. It provides locations of the areal extent of orebodies, in addition to descriptive information for use in a GIS and for estimating undiscovered mineral resource endowments.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo Sync="TRUE">
+				<sngdate>
+					<caldate Sync="TRUE">2011</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom Sync="TRUE">
+			<bounding>
+				<westbc Sync="TRUE">25.367</westbc>
+				<eastbc Sync="TRUE">28.6933</eastbc>
+				<northbc Sync="TRUE">-26.4335</northbc>
+				<southbc Sync="TRUE">-28.0083</southbc>
+			</bounding>
+		</spdom>
+		<keywords Sync="TRUE">
+			<theme>
+				<themekey Sync="TRUE">permissive tract</themekey>
+				<themekey Sync="TRUE">sandstone</themekey>
+				<themekey Sync="TRUE">sediment-hosted copper deposit</themekey>
+				<themekey Sync="TRUE">deposit</themekey>
+				<themekey>orebody</themekey>
+				<themekey>global mineral resource assessment</themekey>
+				<themekey>sediment-hosted stratabound copper deposit</themekey>
+				<themekey Sync="TRUE">GIS</themekey>
+			</theme>
+			<place Sync="TRUE">
+				<placekey>Africa</placekey>
+				<placekey>Zambia</placekey>
+				<placekey>Democratic Republic of the Congo</placekey>
+			</place>
+			<stratum>
+				<stratkey Sync="TRUE">Katanga Supergroup</stratkey>
+			</stratum>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst Sync="TRUE">This spatial database is not meant to be used or displayed at any scale larger than 1:1,000,000 (for example, 1:500,000).</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper Sync="TRUE">Michael L. Zientek</cntper>
+					<cntorg Sync="TRUE">U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntpos Sync="TRUE">Research Geologist</cntpos>
+				<cntaddr>
+					<addrtype Sync="TRUE">mailing address</addrtype>
+					<address Sync="TRUE">904 West Riverside Avenue, Suite 202</address>
+					<city Sync="TRUE">Spokane</city>
+					<state>WA</state>
+					<postal>99201</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>509-368-3105</cntvoice>
+				<cntfax>509-368-3199</cntfax>
+				<cntemail>mzientek@usgs.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Heather L. Parks, Michael L. Zientek</datacred>
+		<secinfo>
+			<secclass>Unclassified</secclass>
+		</secinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</native>
+	</idinfo>
+	<dataqual Sync="TRUE">
+		<attracc>
+			<attraccr Sync="TRUE">The attributes associated with this dataset were derived from reports and maps.</attraccr>
+		</attracc>
+		<logic Sync="TRUE">No duplicate spatial features exist in the dataset.</logic>
+		<posacc Sync="TRUE">
+			<horizpa>
+				<horizpar Sync="TRUE">Locations were derived from maps varying from 1:1,000,000-scale to 1:4,000-scale.</horizpar>
+				<qhorizpa Sync="TRUE">
+					<horizpav>500 meters</horizpav>
+				</qhorizpa>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo Sync="TRUE">
+				<srcscale>1:1,000,000 to 1:4,000</srcscale>
+				<srccontr>Sources provided locational (mixed scales) information for orebodies. Full references are provided in the accompanying "GIS references.xlsx" file.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Source maps were scanned and registered using georeferencing tools in ArcGIS 9, using a variety of source material as a guide. Features were manually digitized from georeferenced maps in GIS. Fields were attributed using information from maps and reports.</procdesc>
+				<procdate>2011</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper Sync="TRUE">Mike Zientek</cntper>
+							<cntorg>USGS</cntorg>
+						</cntperp>
+						<cntpos Sync="TRUE">Research geologist</cntpos>
+						<cntaddr Sync="TRUE">
+							<addrtype>mailing address</addrtype>
+							<address Sync="TRUE">USGS</address>
+							<address>904 W. Riverside Ave, Room 202</address>
+							<city Sync="TRUE">Spokane</city>
+							<state Sync="TRUE">WA</state>
+							<postal Sync="TRUE">99201</postal>
+							<country Sync="TRUE">USA</country>
+						</cntaddr>
+						<cntvoice Sync="TRUE">509-368-3105</cntvoice>
+						<cntfax Sync="TRUE">509-368-3199</cntfax>
+						<cntemail Sync="TRUE">mzientek@usgs.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo Sync="TRUE">
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf></ptvctinf>
+	</spdoinfo>
+	<spref Sync="TRUE">
+		<horizsys Sync="TRUE">
+			<geograph Sync="TRUE">
+				<latres Sync="TRUE">0.000000</latres>
+				<longres Sync="TRUE">0.000000</longres>
+				<geogunit Sync="TRUE">Decimal degrees</geogunit>
+			</geograph>
+			<geodetic Sync="TRUE">
+				<horizdn Sync="TRUE">D_WGS_1984</horizdn>
+				<ellips Sync="TRUE">WGS_1984</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257224</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo Sync="TRUE">
+		<detailed Sync="TRUE">
+			<enttyp Sync="TRUE">
+				<enttypl Sync="TRUE">CACB_orebodies</enttypl>
+				<enttypd Sync="TRUE">Esri shapefile of the areal extent of sediment-hosted copper orebodies in the Central African Copperbelt, Africa</enttypd>
+			</enttyp>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Name="CACB_deposits_prospects_v6" xmlns="">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv Sync="TRUE">
+					<udom Name="MX_pCu_Deposits_prospects">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv Sync="TRUE">
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Group_name</attrlabl>
+				<attrdef Sync="TRUE">Name of group to which orebody belongs. Groups represent clusters of deposits which are grouped together using the 500 m aggregation rule (and for which resource data are aggregated) in order to describe and model grade and tonnage; correlates to Group_name in CACB_deposits_prospects.shp.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Name</attrlabl>
+				<attrdef Sync="TRUE">Name of deposit to which orebody belongs; correlates to Name in the shapefile CACB_deposits_prospects.shp.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Ref_Short</attrlabl>
+				<attrdef Sync="TRUE">Short reference; abbreviated citation for reference; full reference is provided in accompanying "GIS references.xlsx" file.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Area_km2</attrlabl>
+				<attrdef Sync="TRUE">Area of the areal extent (as projected to the surface) of the orebody, in square kilometers.</attrdef>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo Sync="TRUE">
+		<distrib Sync="TRUE" xmlns="">
+			<cntinfo Sync="TRUE">
+				<cntorgp Sync="TRUE">
+					<cntorg Sync="TRUE">U.S. Geological Survey Information Services</cntorg>
+				</cntorgp>
+				<cntaddr Sync="TRUE" xmlns="">
+					<addrtype Sync="TRUE">mailing address</addrtype>
+					<address Sync="TRUE">Denver Federal Center</address>
+					<address Sync="TRUE" xmlns="">P.O. Box 25286</address>
+					<city Sync="TRUE">Denver</city>
+					<state Sync="TRUE">CO</state>
+					<postal Sync="TRUE">80225</postal>
+					<country Sync="TRUE">USA</country>
+				</cntaddr>
+				<cntvoice xmlns="">888-275-8747</cntvoice>
+			</cntinfo>
+		</distrib>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+		<distliab Sync="TRUE">
+This publication was prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, makes any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed in this report, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof.
+ 
+Although all data and software published in this report are used by the U.S. Geological Survey, no warranty, expressed or implied, is made by the U.S. Geological Survey as to the accuracy of the data and related materials and (or) the functioning of the software. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials.
+</distliab>
+		<stdorder Sync="TRUE">
+			<digform Sync="TRUE">
+				<digtinfo xmlns="">
+					<transize Sync="TRUE">Transfer_Size</transize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo Sync="TRUE">
+		<metd Sync="TRUE">20120110</metd>
+		<metc Name="MX_pCu_Deposits_prospects">
+			<cntinfo Sync="TRUE">
+				<cntorgp Sync="TRUE">
+					<cntorg Sync="TRUE">USGS</cntorg>
+					<cntper Sync="TRUE">Heather L. Parks</cntper>
+				</cntorgp>
+				<cntpos Sync="TRUE">Geologist</cntpos>
+				<cntaddr xmlns="">
+					<addrtype Name="MX_pCu_Deposits_prospects">mailing and physical address</addrtype>
+					<address Sync="TRUE">USGS</address>
+					<address xmlns="">904 W. Riverside Ave, Room 202</address>
+					<city Sync="TRUE">Spokane</city>
+					<state Sync="TRUE">WA</state>
+					<postal Sync="TRUE">99201</postal>
+					<country Sync="TRUE">USA</country>
+				</cntaddr>
+				<cntvoice xmlns="">509-368-3114</cntvoice>
+				<cntfax Sync="TRUE">509-368-3199</cntfax>
+				<cntemail Sync="TRUE">hoverstreet@usgs.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc xmlns="">local time</mettc>
+		<metac Sync="TRUE">none</metac>
+		<metuc Sync="TRUE">none</metuc>
+		<metsi Sync="TRUE">
+			<metsc Sync="TRUE">Unclassified</metsc>
+		</metsi>
+	</metainfo>
+	<city Sync="TRUE">Spokane</city>
+	<country Sync="TRUE">US</country>
+</metadata>

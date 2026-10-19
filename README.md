@@ -1,57 +1,26 @@
-# 👋 Welcome to My Machine Learning Portfolio
+# Machine Learning Projects
 
-This repository brings together my hands-on projects in **machine learning, Python, APIs, and model deployment**. I’m building practical skills by taking projects from data and model training to usable applications.
+A portfolio of practical machine-learning projects, organized by project. Each project keeps its own data, notebooks, scripts, and documentation together.
 
-## 🚀 Featured Projects
+## Projects
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>🌸 Iris Classification API</h3>
-      <p>Predicts an Iris flower species from four flower measurements using a trained machine-learning model.</p>
-      <p><strong>Tools:</strong> Python · scikit-learn · FastAPI · Docker</p>
-      <a href="./iris-ml-api/README.md">Explore the Iris project →</a>
-    </td>
-    <td width="50%">
-      <h3>📉 Customer Churn Prediction API</h3>
-      <p>Predicts whether a telecom customer is likely to churn and returns a churn probability through a REST API.</p>
-      <p><strong>Tools:</strong> Python · pandas · scikit-learn · FastAPI · Docker</p>
-      <a href="./customer-churn-api/README.md">Explore the Churn project →</a>
-    </td>
-  </tr>
-</table>
+| Project | Description | Start here |
+| --- | --- | --- |
+| Association rule mining | Market basket analysis and recommendation rules | [Project folder](projects/association-rule/) · [Notebook](projects/association-rule/notebooks/01_association_rules.ipynb) |
+| Car price regression | Used-car price prediction with regression models | [README](projects/car-price-regression/README.md) |
+| Churn prediction | Customer churn analysis and model training | [Project folder](projects/churn-prediction/) · [Notebook](projects/churn-prediction/train.ipynb) |
+| Deposit prospect prediction | Copper exploration and deposit prospectivity analysis | [Project folder](projects/deposit-prospect-prediction/copper-exploration-ml/) · [Notebook](projects/deposit-prospect-prediction/copper-exploration-ml/prediction.ipynb) |
+| Iris classification | Iris species classification | [README](projects/iris-classification/README.md) |
 
-## 🧰 Tools I’m Practising
-
-- **Programming & data:** Python, pandas, NumPy
-- **Machine learning:** scikit-learn, model evaluation, classification and regression
-- **APIs & deployment:** FastAPI, REST APIs, Docker
-- **Version control:** Git and GitHub
-
-## 🗺️ What I’m Working Toward
-
-I’m developing my skills in data science and machine learning, with a long-term interest in applying data-driven methods to geospatial and real-world problems.
-
-## 📁 Repository Layout
+## Repository layout
 
 ```text
-ml-projects/
-├── iris-ml-api/
-│   ├── main.py
-│   ├── train_model.py
-│   ├── model.joblib
-│   └── Dockerfile
-└── customer-churn-api/
-    ├── main.py
-    ├── train_model.py
-    ├── churn_model.joblib
-    └── Dockerfile
+projects/
+├── association-rule/
+├── car-price-regression/
+├── churn-prediction/
+├── deposit-prospect-prediction/
+└── iris-classification/
 ```
 
-## 🤝 Thanks for Visiting
-
-Thanks for taking a look at my work. I’m learning by building, testing, improving, and documenting each project. Feedback and constructive suggestions are welcome!
-
----
-
-*More projects and improvements will be added as I continue learning.*
+FastAPI applications for deploying selected models are organized in the [FastAPI Apps repository](https://github.com/MumbaMumba789/fastAPI-task-manager/tree/main/apps).

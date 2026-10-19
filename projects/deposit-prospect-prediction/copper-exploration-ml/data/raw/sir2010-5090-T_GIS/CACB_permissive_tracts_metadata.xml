@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>USGS</origin>
+				<title>CACB_permissive_tracts.shp</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<serinfo Sync="TRUE">
+					<sername>USGS Scientific Investigations Report</sername>
+					<issue>2010-5090-T</issue>
+				</serinfo>
+				<onlink>http://pubs.usgs.gov/sir/2010/5090/t/</onlink><pubdate>20140930</pubdate><pubinfo><publish>U.S. Geological Survey</publish></pubinfo><onlink>http://dx.doi.org/10.3133/sir20105090T</onlink><lworkcit><citeinfo><onlink>http://pubs.usgs.gov/sir/2010/5090/t/</onlink><onlink>http://dx.doi.org/10.3133/sir20105090T</onlink><origin>U.S. Geological Survey</origin><pubdate>20140930</pubdate><title>Sediment-Hosted Stratabound Copper Assessment of the Neoproterozoic Roan Group, Central African Copperbelt, Katanga Basin, Democratic Republic of the Congo and Zambia</title><serinfo><sername>Scientific Investigations Report</sername><issue>2010-5090-T</issue></serinfo><pubinfo><publish>U.S. Geological Survey</publish></pubinfo></citeinfo></lworkcit></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset includes polygons that describe permissive tracts for sandstone-type copper deposits in the Central African Copperbelt, Democratic Republic of the Congo and Zambia.</abstract>
+			<purpose>To delineate where undiscovered deposits of sandstone copper may occur within the upper 2 km of the Earth’s crust. Created for Scientific Investigations Series Report 2010-5090-T, which is part of the USGS assessment of undiscovered copper resources of the world.</purpose>
+			<supplinf>This dataset was created for the USGS Global Mineral Resource Assessment Project (GMRAP). The primary objectives of the project are to outline the principal areas in the world that have potential for selected undiscovered mineral resources and to estimate the probable amounts of those mineral resources to a depth of 1-3 kilometers below the earth's surface.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2011</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update Sync="TRUE">None planned</update>
+		</status>
+		<spdom Sync="TRUE">
+			<bounding>
+				<westbc Sync="TRUE">24.983</westbc>
+				<eastbc Sync="TRUE">28.1563</eastbc>
+				<northbc Sync="TRUE">-25.74167</northbc>
+				<southbc Sync="TRUE">-27.71983</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekey>sediment-hosted copper</themekey>
+				<themekey>sandstone</themekey>
+				<themekey>permissive tract</themekey>
+				<themekey>deposit</themekey>
+				<themekey>prospect</themekey>
+				<themekey>global mineral resource assessment</themekey>
+			</theme>
+			<place>
+				<placekey Sync="TRUE">Africa</placekey>
+				<placekey Sync="TRUE">Democratic Republic of the Congo</placekey>
+				<placekey Sync="TRUE">Zambia</placekey>
+			</place>
+		</keywords>
+		<accconst Sync="TRUE">None</accconst>
+		<useconst Sync="TRUE">This spatial database is not meant to be used or displayed at any scale larger than 1:1,000,000 (for example, 1:500,000).</useconst>
+		<ptcontac Sync="TRUE">
+			<cntinfo>
+				<cntperp>
+					<cntper>Mike Zientek</cntper>
+					<cntorg>USGS</cntorg>
+				</cntperp>
+				<cntpos>Research geologist</cntpos>
+				<cntaddr>
+					<addrtype Sync="TRUE">mailing address</addrtype>
+					<address>904 W. Riverside Ave, Room 202</address>
+					<city>Spokane</city>
+					<state Sync="TRUE">WA</state>
+					<postal Sync="TRUE">99201</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice Sync="TRUE">509-368-3105</cntvoice>
+				<cntfax>509-368-3199</cntfax>
+				<cntemail>mzientek@usgs.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Michael L. Zientek, Heather L. Parks</datacred>
+		<secinfo>
+			<secclass Sync="TRUE">Unclassified</secclass>
+		</secinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</native>
+	</idinfo>
+	<dataqual>
+		<attracc Sync="TRUE">
+		</attracc>
+		<logic>Tests for integrity have not been performed. No duplicate spatial features exist in the dataset.</logic>
+		<posacc>
+			<horizpa>
+				<horizpar>Locations are based on geologic maps varying from 1:100,000- to 1:500,000-scale maps.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Locations are based on geologic maps varying from 1:100,000- to 1:500,000-scale maps.</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale>1:100,000 to 1:500,000</srcscale>
+			</srcinfo>
+			<procstep>
+				<procdesc>Tract delineation processing steps are detailed in appendices H, I, and J of this report.</procdesc>
+				<procdate>2011</procdate>
+				<proccont Sync="TRUE">
+					<cntinfo>
+						<cntperp Sync="TRUE">
+							<cntper>Mike Zientek</cntper>
+							<cntorg>USGS</cntorg>
+						</cntperp>
+						<cntpos>Geologist</cntpos>
+						<cntaddr>
+							<addrtype Sync="TRUE">mailing address</addrtype>
+							<address Sync="TRUE">USGS</address>
+							<address>904 W. Riverside Ave, Room 202</address>
+							<city Sync="TRUE">Spokane</city>
+							<state>WA</state>
+							<postal>99201</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>509-368-3105</cntvoice>
+						<cntfax>509-368-3199</cntfax>
+						<cntemail>mzientek@usgs.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf Sync="TRUE"></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys Sync="TRUE">
+			<geodetic>
+				<horizdn Sync="TRUE">D_Arc_1950</horizdn>
+				<ellips Sync="TRUE">Clarke 1866</ellips>
+				<semiaxis Sync="TRUE">6378206.400000</semiaxis>
+				<denflat Sync="TRUE">294.978698</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Sync="TRUE">
+			<enttyp>
+				<enttypl Sync="TRUE">CACB_permissive_tracts</enttypl>
+				<enttypd Sync="TRUE">Permissive tracts for sandstone copper, Central African Copperbelt, Democratic Republic of the Congo and Zambia.</enttypd>
+			</enttyp>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv Sync="TRUE">
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr xmlns="">
+				<attrlabl Sync="TRUE">Tract_ID</attrlabl>
+				<attrdef Sync="TRUE">User-defined, unique identifier assigned to permissive tract.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Coded_ID</attrlabl>
+				<attrdef Sync="TRUE">Coded, unique identifier assigned to permissive tract.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Tract_name</attrlabl>
+				<attrdef Name="CACB_deposits_prospects_v6" xmlns="">Informal name of permissive tract.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Unregcode</attrlabl>
+				<attrdef Name="MX_pCu_Deposits_prospects">Three digit UN code for the region that underlies most of the permissive tract.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Country</attrlabl>
+				<attrdef Sync="TRUE">Country(ies) in which the permissive tract is located.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Commodity</attrlabl>
+				<attrdef Sync="TRUE">Primary commodity being assessed.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Dep_type</attrlabl>
+				<attrdef Sync="TRUE">Name of the deposit type assessed.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">GT_model</attrlabl>
+				<attrdef Sync="TRUE">Grade-tonnage model used for the undiscovered deposit estimate.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Geology</attrlabl>
+				<attrdef Sync="TRUE">Geologic feature assessed.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Age</attrlabl>
+				<attrdef Sync="TRUE">Age of the assessed geologic feature.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Asmt_date</attrlabl>
+				<attrdef Sync="TRUE" xmlns="">Year assessment was conducted.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Asmt_depth</attrlabl>
+				<attrdef Sync="TRUE" xmlns="">Maximum depth beneath the Earth's surface used for the assessment, in kilometers.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Est_levels</attrlabl>
+				<attrdef Sync="TRUE" xmlns="">The set of percentile (probability) levels at which undiscovered deposit estimates were made.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">N90</attrlabl>
+				<attrdef Sync="TRUE" xmlns="">Estimated number of deposits associated with the 90th percentile (90 percent chance of at least the indicated number of deposits).</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">N50</attrlabl>
+				<attrdef xmlns="">Estimated number of deposits associated with the 50th percentile (50 percent chance of at least the indicated number of deposits).</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">N10</attrlabl>
+				<attrdef xmlns="">Estimated number of deposits associated with the 10th percentile (10 percent chance of at least the indicated number of deposits).</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">N05</attrlabl>
+				<attrdef xmlns="">Estimated number of deposits associated with the 5th percentile (5 percent chance of at least the indicated number of deposits).</attrdef>
+			</attr>
+			<attr xmlns="">
+				<attrlabl Sync="TRUE">N01</attrlabl>
+				<attrdef xmlns="">Estimated number of deposits associated with the 1st percentile (1 percent chance of at least the indicated number of deposits).</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">N_expected</attrlabl>
+				<attrdef xmlns="">Expected (mean) number of deposits. N_Expected = (0.233*N90) + (0.4*N50) + (0.225*N10) + (0.045*N05) + (0.03*N01)</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">s</attrlabl>
+				<attrdef xmlns="">Standard deviation. s = 0.121 - (0.237*N90) - (0.093*N50) + (0.183*N10) + (0.073*N05) + (0.123*N01)</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Cv_percent</attrlabl>
+				<attrdef xmlns="">Coefficient of variance, in percent. Cv = (s/N_Expected) * 100</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="FALSE">N_known</attrlabl>
+				<attrdef Sync="TRUE" xmlns="">Number of known deposits in the tract.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">N_total</attrlabl>
+				<attrdef xmlns="">Total number of deposits. N_total = N_Expected + N_Known</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Area_km2</attrlabl>
+				<attrdef xmlns="">Area of permissive tract, in square kilometers.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">DepDensity</attrlabl>
+				<attrdef xmlns="">Deposit density (total number of deposits per square kilometer). DepDensity = N_total/Area_km2</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Name="MX_pCu_Deposits_prospects">DepDen10E5</attrlabl>
+				<attrdef xmlns="">Deposit density per 100,000 square kilometers. DepDen10E5 = DepDensity*100,000</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Estimators</attrlabl>
+				<attrdef xmlns="">Names of people on the estimation team.</attrdef>
+			</attr>
+			<attr xmlns="">
+				<attrlabl Sync="TRUE">Notes</attrlabl>
+				<attrdef Sync="TRUE" xmlns="">Miscellaneous notes</attrdef>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+		<distliab Sync="TRUE" xmlns="">
+This publication was prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, makes any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed in this report, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof.
+ 
+Although all data and software published in this report are used by the U.S. Geological Survey, no warranty, expressed or implied, is made by the U.S. Geological Survey as to the accuracy of the data and related materials and (or) the functioning of the software. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials.
+</distliab>
+		<stdorder>
+			<digform xmlns="">
+				<digtinfo Sync="TRUE">
+					<transize>0.002</transize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd xmlns="">20120926</metd>
+		<metc>
+			<cntinfo Sync="FALSE">
+				<cntorgp>
+					<cntorg Sync="TRUE" xmlns="">USGS</cntorg>
+					<cntper>Heather Parks</cntper>
+				</cntorgp>
+				<cntpos>Geologist</cntpos>
+				<cntaddr Sync="TRUE">
+					<addrtype>mailing and physical address</addrtype>
+					<address>USGS</address>
+					<address Sync="TRUE">904 W. Riverside Ave, Room 202</address>
+					<city Sync="FALSE">Spokane</city>
+					<state xmlns="">WA</state>
+					<postal>99201</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice Sync="TRUE">509-368-3114</cntvoice>
+				<cntfax>509-368-3199</cntfax>
+				<cntemail>hoverstreet@usgs.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>none</metac>
+		<metuc>none</metuc>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+	</metainfo>
+	<lineage></lineage>
+</metadata>

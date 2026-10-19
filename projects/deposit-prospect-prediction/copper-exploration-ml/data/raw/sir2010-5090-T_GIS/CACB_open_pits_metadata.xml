@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>USGS</origin>
+				<pubdate>20140930</pubdate>
+				<title>CACB_open_pits</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<serinfo Sync="TRUE">
+					<sername>USGS Scientific Investigations Report</sername>
+					<issue>2010-5090-T</issue>
+				</serinfo>
+				<pubinfo>
+					<publish>U.S. Geological Survey</publish>
+				</pubinfo>
+				<onlink>http://pubs.usgs.gov/sir/2010/5090/t/</onlink>
+				<lworkcit>
+					<citeinfo>
+						<pubdate>20140930</pubdate>
+						<title>Sediment-Hosted Stratabound Copper Assessment of the Neoproterozoic Roan Group, Central African Copperbelt, Katanga Basin, Democratic Republic of the Congo and Zambia</title>
+						<serinfo>
+							<sername>Scientific Investigations Report</sername>
+							<issue>2010-5090-T</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+						<onlink>http://pubs.usgs.gov/sir/2010/5090/t/</onlink>
+						<onlink>http://dx.doi.org/10.3133/sir20105090T</onlink></citeinfo>
+				</lworkcit>
+				<onlink>http://dx.doi.org/10.3133/sir20105090T</onlink></citeinfo>
+		</citation>
+		<descript Sync="TRUE">
+			<abstract>The Esri shapefile CACB_open_pits is a spatial database that provides spatial and descriptive information for sediment-hosted copper open-pit mines of the Central African Copperbelt, Democratic Republic of the Congo (DRC) and Zambia.</abstract>
+			<purpose>The spatial database was created for use in a geographic information system (GIS) as part of Scientific Investigations Series Report 2010-5090-T, which is part of the USGS assessment of undiscovered copper resources of the world. It provides locations of open-pit mines, in addition to descriptive information for use in a GIS and for estimating undiscovered mineral resource endowments.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo Sync="TRUE">
+				<sngdate>
+					<caldate>2011</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">25.333</westbc>
+				<eastbc Sync="TRUE">28.4767</eastbc>
+				<northbc Sync="TRUE">-26.1867</northbc>
+				<southbc Sync="TRUE">-28.43467</southbc>
+			</bounding>
+		</spdom>
+		<keywords Sync="TRUE">
+			<theme>
+				<themekey Sync="TRUE">permissive tract</themekey>
+				<themekey Sync="TRUE">sandstone</themekey>
+				<themekey>sediment-hosted copper deposit</themekey>
+				<themekey>deposit</themekey>
+				<themekey>open pit mine</themekey>
+				<themekey>global mineral resource assessment</themekey>
+				<themekey>sediment-hosted stratabound copper deposit</themekey>
+				<themekey>GIS</themekey>
+			</theme>
+			<place Sync="TRUE">
+				<placekey>Africa</placekey>
+				<placekey>Zambia</placekey>
+				<placekey>Democratic Republic of the Congo</placekey>
+			</place>
+			<stratum>
+				<stratkey>Katanga Supergroup</stratkey>
+			</stratum>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>This spatial database is not meant to be used or displayed at any scale larger than 1:1,000,000 (for example, 1:500,000).</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Michael L. Zientek</cntper>
+					<cntorg Sync="TRUE">U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntpos>Research Geologist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address Sync="TRUE">904 West Riverside Avenue, Suite 202</address>
+					<city>Spokane</city>
+					<state>WA</state>
+					<postal>99201</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>509-368-3105</cntvoice>
+				<cntfax>509-368-3199</cntfax>
+				<cntemail>mzientek@usgs.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Heather L. Parks, Michael L. Zientek</datacred>
+		<secinfo>
+			<secclass>Unclassified</secclass>
+		</secinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</native>
+	</idinfo>
+	<dataqual Sync="TRUE">
+		<attracc>
+			<attraccr Sync="TRUE">The attributes associated with this dataset were derived from reports and maps.</attraccr>
+		</attracc>
+		<logic Sync="TRUE">No duplicate spatial features exist in the dataset.</logic>
+		<posacc Sync="TRUE">
+			<horizpa>
+				<horizpar Sync="TRUE">Locations are based on Google Earth satellite imagery.</horizpar>
+				<qhorizpa>
+					<horizpav>500 meters</horizpav>
+				</qhorizpa>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale>1:20,000</srcscale>
+				<srccontr>Google Earth Satellite imagery</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>This shapefile was created by manually digitizing open pits seen on Google Earth satellite imagery.  The file was saved as a KML file in Google Earth and then converted to a shapefile using the “Import data from KML” option from XTools Pro in ArcMap. The open pits are attributed with the name of the corresponding mine seen in Google Earth or corresponding deposit or prospect point. The approximate scale of digitization is 1:20,000. This file was created in January of 2010; dates of Google Earth imagery used for digitization can be found using Google Earth's Historical Imagery option.</procdesc>
+				<procdate>2010</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper Sync="TRUE">Mike Zientek</cntper>
+							<cntorg>USGS</cntorg>
+						</cntperp>
+						<cntpos>Research geologist</cntpos>
+						<cntaddr Sync="TRUE">
+							<addrtype>mailing address</addrtype>
+							<address Sync="TRUE">USGS</address>
+							<address>904 W. Riverside Ave, Room 202</address>
+							<city>Spokane</city>
+							<state Sync="TRUE">WA</state>
+							<postal Sync="TRUE">99201</postal>
+							<country Sync="TRUE">USA</country>
+						</cntaddr>
+						<cntvoice Sync="TRUE">509-368-3105</cntvoice>
+						<cntfax Sync="TRUE">509-368-3199</cntfax>
+						<cntemail Sync="TRUE">mzientek@usgs.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo Sync="TRUE">
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf></ptvctinf>
+	</spdoinfo>
+	<spref Sync="TRUE">
+		<horizsys Sync="TRUE">
+			<geograph Sync="TRUE">
+				<latres Sync="TRUE">0.000000</latres>
+				<longres Sync="TRUE">0.000000</longres>
+				<geogunit Sync="TRUE">Decimal degrees</geogunit>
+			</geograph>
+			<geodetic Sync="TRUE">
+				<horizdn Sync="TRUE">D_WGS_1984</horizdn>
+				<ellips Sync="TRUE">WGS_1984</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257224</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo Sync="TRUE">
+		<detailed Sync="TRUE">
+			<enttyp Sync="TRUE">
+				<enttypl Sync="TRUE">CACB_open_pits</enttypl>
+				<enttypd Sync="TRUE">Esri shapefile of sedimen-hosted copper open-pit mines in the Central African Copperbelt, Africa</enttypd>
+			</enttyp>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Name="CACB_deposits_prospects_v6" xmlns="">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv Sync="TRUE">
+					<udom Name="MX_pCu_Deposits_prospects">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv Sync="TRUE">
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Group_name</attrlabl>
+				<attrdef Sync="TRUE">Name of group to which open pit belongs. Groups represent clusters of deposits which are grouped together using the 500 m aggregation rule (and for which resource data are aggregated) in order to describe and model grade and tonnage.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Name</attrlabl>
+				<attrdef>Name of deposit to which open pit belongs; correlates to Name in the shapefile CACB_deposits_prospects and to Name in the shapefile CACB_orebodies.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Ref_Short</attrlabl>
+				<attrdef>Short reference; abbreviated citation for reference; full reference is provided in accompanying "GIS references.xlsx" file.</attrdef>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">Area_km2</attrlabl>
+				<attrdef>Area of open pit, in square kilometers.</attrdef>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo Sync="TRUE">
+		<distrib Sync="TRUE">
+			<cntinfo>
+				<cntorgp>
+					<cntorg Sync="TRUE" xmlns="">U.S. Geological Survey Information Services</cntorg>
+				</cntorgp>
+				<cntaddr Sync="TRUE">
+					<addrtype>mailing address</addrtype>
+					<address Sync="TRUE" xmlns="">Denver Federal Center</address>
+					<address Sync="TRUE">P.O. Box 25286</address>
+					<city>Denver</city>
+					<state Sync="TRUE">CO</state>
+					<postal>80225</postal>
+					<country Sync="TRUE" xmlns="">USA</country>
+				</cntaddr>
+				<cntvoice Sync="TRUE">888-275-8747</cntvoice>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab Sync="TRUE">
+This publication was prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, makes any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed in this report, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof.
+ 
+Although all data and software published in this report are used by the U.S. Geological Survey, no warranty, expressed or implied, is made by the U.S. Geological Survey as to the accuracy of the data and related materials and (or) the functioning of the software. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials.
+</distliab>
+		<stdorder xmlns="">
+			<digform Sync="TRUE">
+				<digtinfo Sync="TRUE">
+					<transize>Transfer_Size</transize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo xmlns="">
+		<metd Sync="TRUE">20121030</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp xmlns="">
+					<cntorg Name="MX_pCu_Deposits_prospects">USGS</cntorg>
+					<cntper>Heather L. Parks</cntper>
+				</cntorgp>
+				<cntpos xmlns="">Geologist</cntpos>
+				<cntaddr Sync="TRUE">
+					<addrtype>mailing and physical address</addrtype>
+					<address xmlns="">USGS</address>
+					<address Sync="TRUE">904 W. Riverside Ave, Room 202</address>
+					<city Sync="FALSE">Spokane</city>
+					<state Sync="TRUE">WA</state>
+					<postal Sync="FALSE">99201</postal>
+					<country Sync="TRUE" xmlns="">USA</country>
+				</cntaddr>
+				<cntvoice Sync="TRUE">509-368-3114</cntvoice>
+				<cntfax>509-368-3199</cntfax>
+				<cntemail Sync="TRUE">hoverstreet@usgs.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv xmlns="">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>none</metac>
+		<metuc Sync="TRUE">none</metuc>
+		<metsi Name="MX_pCu_Deposits_prospects">
+			<metsc>Unclassified</metsc>
+		</metsi>
+	</metainfo>
+	<city Sync="TRUE">Spokane</city>
+	<country>US</country>
+	<lineage xmlns=""></lineage>
+</metadata>
